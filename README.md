@@ -47,19 +47,21 @@ A aba **Relógio** é exibida automaticamente ao abrir o projeto. A hora e a dat
 
 ## Como Rodar o Projeto
 
-Este projeto é 100% front-end, sem necessidade de servidor ou instalação de dependências.
+Por ser uma aplicação front-end pura (sem dependências ou build), basta abrir o arquivo diretamente no navegador:
 
-**Opção 1 — Abrir diretamente:**
-```
-Abra o arquivo index.html em qualquer navegador moderno.
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/chronora.git
 ```
 
-**Opção 2 — Com Live Server (VS Code):**
+2. Acesse a pasta do projeto:
+```bash
+cd chronora
 ```
-1. Instale a extensão Live Server no VS Code
-2. Clique com o botão direito em index.html
-3. Selecione "Open with Live Server"
-```
+
+3. Abra o arquivo `index.html` no navegador
+
+> Recomendado: use a extensão **Live Server** no VS Code para recarregamento automático.
 
 ## Estrutura do Projeto
 
